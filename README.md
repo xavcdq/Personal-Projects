@@ -17,11 +17,11 @@ This project is a multi-feature Streamlit application with secure login that int
 - Role-based access (Moderator vs User)
 
 ### Application Modules
-- File Extraction: Extract full text, embedded images, summarise documents, and extract name entities from uploaded files
-- Image Recognition: Predict the object/animal present in an uploaded image
-- Table Converter: Detect tables in PDFs and export them to editable Excel files
-- Car Plate Recognition: Identify license plate numbers from uploaded images
-- Regex Generator: DIsplay predefined regular expression samples with descriptions
-- Song Recognition: Identify songs from uploaded audio files
+- File Extraction: Extract full text, embedded images, summarise documents, and extract name entities from uploaded files (main3.py)
+- Image Recognition: Predict the object/animal present in an uploaded image (classi.py)
+- Table Converter: Detect tables in PDFs and export them to editable Excel files (table.py)
+- Car Plate Recognition: Identify license plate numbers from uploaded images (carplate.py)
+- Regex Generator: DIsplay predefined regular expression samples with descriptions (reg.py)
+- Song Recognition: Identify songs from uploaded audio files (audio.py)
 - User Database (Moderator-only): View all registered users and export database to Excel
 
