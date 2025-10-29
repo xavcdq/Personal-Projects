@@ -214,7 +214,7 @@ def combined_line_plot(df):
     st.title("Artist Comparison")
 
     # Dropdown for choosing y-axis
-    y_axis = st.selectbox("Select variable:", ['Likes', 'Comments', 'Views', 'Streams'], index=0)
+    y_axis = st.selectbox("Select variable:", ['Likes', 'Comments', 'Views', 'Stream'], index=0)
 
     # Radio for choosing x-axis (Track or Album)
     x_axis = st.radio("Compare by:", ['Track', 'Album'], index=0, horizontal=True)
