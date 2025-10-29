@@ -25,3 +25,5 @@ This project is a multi-feature Streamlit application with secure login that int
 - Song Recognition: Identify songs from uploaded audio files (audio.py)
 - User Database (Moderator-only): View all registered users and export database to Excel
 
+## 4. Password-Protected PDF Text Extraction (decrypt.py)
+Alongside the main Streamlit app, a separate script was developed to handle password-protected PDFs. The utility does not remove or decrypt the file permanently, but allows users to enter the correct password and then extract the text content from the encrypted document for further use. 
